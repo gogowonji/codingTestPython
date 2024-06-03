@@ -1,3 +1,10 @@
+# if문 return문 배우기
+# 예외처리 왜 안되는지 모르겠다
+# try:
+#    temp.pop()
+# except IndexError:
+#    return False
+
 def solution(s):
     answer = True
     temp = []
@@ -9,10 +16,4 @@ def solution(s):
                 temp.pop()
         elif i == ')' and len(temp) == 0:
                 return False
-                
-        
-    
-    # if len(temp) != 0:
-    #     answer = False
-    
     return len(temp) == 0
