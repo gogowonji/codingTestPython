@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 71.1 MB, 시간: 1649.80 ms
+메모리: 51.8 MB, 시간: 1634.65 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 06월 05일 10:21:09
+2024년 06월 05일 11:29:06
 
 ### 문제 설명
 
@@ -70,7 +70,3 @@ Leo가 가진 음식의 스코빌 지수를 담은 배열 scoville과 원하는 
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
-
----
-# 복습
-[참고링크](https://velog.io/@limeorange/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-Python-%EB%8D%94-%EB%A7%B5%EA%B2%8C)
