@@ -10,16 +10,6 @@ def solution(scoville, K):
         if len(scoville) == 1 and scoville[0] < K:
             return -1
     
-    # for s in range(len(scoville)): #scoville 값이 계속 변하는데..?!
-    #     scoville.sort()
-    #     if scoville[s] >= K:
-    #         break
-    #     else:
-    #         scoville.append(scoville[s] + scoville[s+1]*2)
-    #         scoville.pop(0) # 앞 두개 제거
-    #         scoville.pop(1)
-    #         answer += 1
-    #         s = 0
     return answer
 
 # 정렬
@@ -29,4 +19,13 @@ def solution(scoville, K):
 # 제거
 # 새로운 음식 만드는 갯수만 반환하면 되니까 다른 배열 만들어?
 
-
+# for s in range(len(scoville)): #scoville 값이 계속 변하는데..?!
+#     scoville.sort()
+#     if scoville[s] >= K:
+#         break
+#     else:
+#         scoville.append(scoville[s] + scoville[s+1]*2)
+#         scoville.pop(0) # 앞 두개 제거
+#         scoville.pop(1)
+#         answer += 1
+#         s = 0
