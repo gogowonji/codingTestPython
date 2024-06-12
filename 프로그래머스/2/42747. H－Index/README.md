@@ -1,6 +1,7 @@
 # [level 2] H-Index - 42747 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42747#) 
+[참고 링크 - 원본 LeetCode](https://leetcode.com/problems/h-index/description/)
 
 ### 성능 요약
 
