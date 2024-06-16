@@ -1,3 +1,6 @@
+# sorted(list(map(int,input().split())),reserve=True)
+# -> 바로 작성할 수 있었음
+
 A = []
 B = []
 result = 0
