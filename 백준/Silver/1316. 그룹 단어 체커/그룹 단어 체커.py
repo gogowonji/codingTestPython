@@ -1,3 +1,7 @@
+# 아이디어!!!
+# isGroup boolean으로 그룹단어 되는지 확인하기
+# 단어를 확인하고 if문으로 answer 체크하기
+
 answer = 0
 
 N = int(input())
