@@ -31,3 +31,32 @@ if len(max_answer) > 1:# 여러번 세어진 것을 구함
 else:
   answer = chr(max_answer[0] + ord('A'))
   print(answer)
+
+
+# s = str(input())
+# answer = ''
+# count = [0] * 26
+# max_count = 0
+# for i in s:
+#   if (ord(i) >= ord('a')):  #소문자이면
+#     count[ord(i) - ord('a')] += 1
+    
+#   else:  #대문자이면
+#     count[ord(i) - ord('A')] += 1
+    
+
+# # 여러번 세어진 것을 구함
+# max_count = 0
+# max_answer = 0
+# for i in range(26):
+#   if (count[i] > max_count):
+#     max_count = count[i]
+#     max_answer = i
+#   elif (count[i] == max_count):  # 여러번 세어진 것을 구함
+#     print('?')
+#     exit(0)
+
+# answer = chr(max_answer + ord('A'))
+
+# print(answer)
+
