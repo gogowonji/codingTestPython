@@ -3,11 +3,13 @@
 # p1, p2 : 촌수를 계산해야 하는 서로 다른 두사람의 번호
 # m : 부모 자식간의 관계의 개수
 # x,y : 부모 자식간의 관계를 나타내는 두 번호 (m번 만큼)
+
 from collections import deque
 
 def bfs(graph, start, target, visited):
-    queue = deque([(start,0)])
+    queue = deque([(start,0)]) # 쌍은 괄호, 리스트, 함수
     visited[start] = True
+    
     # dfs로 풀라 그러다가..
     # for _ in graph[visited]:
     # if not visited[i]:
@@ -15,6 +17,7 @@ def bfs(graph, start, target, visited):
     #         return
     #     else:
     #         # 어떻게 처리하지..
+    
     while queue:
         current, count = queue.popleft()
         if current == target:
@@ -45,12 +48,10 @@ def main():
     # 방문했나 안했나
     visited = [False]*(n+1)
 
-
-    # dfs 사용해보기..였는데
-    # 값 찾을때마다 count++?
     result = bfs(graph,p1,p2,visited)
     print(result)
-
+    
+    # 원래는 visited 값으로 촌수를 세려고 했었음
     # result = 0
     # for b in visited:
     #     print(b)
