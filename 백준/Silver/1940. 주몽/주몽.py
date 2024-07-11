@@ -1,18 +1,11 @@
 # 1940 주몽
-# 입력
-# 6
-# 9
-# 2 7 4 1 5 3
-# -> 1 2 3 4 5 7
-# 2,7 4,5
-# 출력
-# 2
+# 선형 탐색
 
 def search(arr, start, target):
-    end = len(arr)-1
-    val = target - arr[start]
-    for i in range(1,len(arr) - start):
-        if arr[start+i] == val:
+    end = len(arr) - start
+    val = target - arr[start] # M의 값이 되도록
+    for i in range(1,end):
+        if arr[start+i] == val: # 두 값의 합 == M의 값 일 때
             return 1
     return 0
 
@@ -21,7 +14,6 @@ N = int(input())
 M = int(input())
 numbers = list((map(int, input().split())))
 
-# M이 될ㄸㅐ 까지 탐색하는거 -> 이분 탐색으로?
 count = 0
 numbers.sort()
 for i in range(N):
